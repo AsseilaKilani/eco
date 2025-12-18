@@ -1,13 +1,13 @@
-// file: app/page.tsx
 import Link from 'next/link';
 import React, {JSX} from 'react';
+import './globals.css';
 
 export default function HomePage(): JSX.Element {
     return (
-        <main style={{ maxWidth: 800, margin: '2rem auto', padding: '1rem' }}>
-            <h1>Accueil</h1>
+        <main className="home-container">
+            <h1 className="home-title">Accueil</h1>
             <p>
-                <Link href="/cv">Voir mon CV</Link>
+                <Link href="/cv" className="cv-link">Voir mon CV</Link>
             </p>
         </main>
     );
