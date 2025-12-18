@@ -1,6 +1,6 @@
 // file: app/page.tsx
 import Link from 'next/link';
-import React from 'react';
+import React, {JSX} from 'react';
 
 export default function HomePage(): JSX.Element {
     return (
