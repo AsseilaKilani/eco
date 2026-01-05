@@ -6,7 +6,6 @@ export default function AboutPage() {
 
             <section id="about" className="bg-white rounded-lg p-6 shadow-sm">
                 <header className="flex items-center gap-4">
-                    <img src="/avatar.png" alt="Avatar" className="w-20 h-20 rounded-full object-cover" />
                     <div>
                         <h1 className="text-2xl font-semibold">Asseila Kilani</h1>
                         <p className="text-sm text-gray-500">Développeur Back-End/Devops</p>
